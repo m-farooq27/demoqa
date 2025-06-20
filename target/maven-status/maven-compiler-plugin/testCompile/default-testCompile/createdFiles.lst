@@ -1,0 +1,5 @@
+com\selenium\utils\PropertiesHandler.class
+com\selenium\pages\HomePage.class
+com\selenium\tests\HomePageTest.class
+com\selenium\AppTest.class
+com\selenium\base\Base.class
