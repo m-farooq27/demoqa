@@ -2,35 +2,71 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-20T14:51:47 BST" name="Surefire suite" finished-at="2025-06-20T14:52:06 BST" duration-ms="18703">
+  <suite started-at="2025-06-23T13:46:45 BST" name="Surefire suite" finished-at="2025-06-23T13:47:11 BST" duration-ms="25127">
     <groups>
     </groups>
-    <test started-at="2025-06-20T14:51:47 BST" name="Surefire test" finished-at="2025-06-20T14:52:06 BST" duration-ms="18703">
+    <test started-at="2025-06-23T13:46:45 BST" name="Surefire test" finished-at="2025-06-23T13:47:11 BST" duration-ms="25127">
       <class name="com.selenium.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium.tests.HomePageTest@416c58f5]" started-at="2025-06-20T14:51:47 BST" name="setUp" finished-at="2025-06-20T14:51:53 BST" duration-ms="6289" status="PASS">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:46:45 BST" name="setupExtentReports" finished-at="2025-06-23T13:46:45 BST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReports -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:46:45 BST" name="setUp" finished-at="2025-06-23T13:46:51 BST" duration-ms="5682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.selenium.tests.HomePageTest.verifyElementsCardIsVisibleAndClickable()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyElementsCardIsVisibleAndClickable()[pri:0, instance:com.selenium.tests.HomePageTest@416c58f5]" started-at="2025-06-20T14:51:53 BST" name="verifyElementsCardIsVisibleAndClickable" finished-at="2025-06-20T14:51:54 BST" duration-ms="174" status="PASS">
+        <test-method signature="verifyElementsCardIsVisibleAndClickable()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:46:51 BST" name="verifyElementsCardIsVisibleAndClickable" finished-at="2025-06-23T13:46:51 BST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyElementsCardIsVisibleAndClickable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.tests.HomePageTest@416c58f5]" started-at="2025-06-20T14:51:54 BST" name="tearDown" finished-at="2025-06-20T14:51:59 BST" duration-ms="5320" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:46:51 BST" name="tearDown" finished-at="2025-06-23T13:46:57 BST" duration-ms="5396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyElementsCardIsVisibleAndClickable status=SUCCESS method=HomePageTest.verifyElementsCardIsVisibleAndClickable()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium.tests.HomePageTest@416c58f5]" started-at="2025-06-20T14:51:59 BST" name="setUp" finished-at="2025-06-20T14:52:04 BST" duration-ms="4656" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:46:57 BST" name="setUp" finished-at="2025-06-23T13:47:07 BST" duration-ms="10294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.selenium.tests.HomePageTest.verifyHomePageLoadsSuccessfully()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageLoadsSuccessfully()[pri:0, instance:com.selenium.tests.HomePageTest@416c58f5]" started-at="2025-06-20T14:52:04 BST" name="verifyHomePageLoadsSuccessfully" finished-at="2025-06-20T14:52:04 BST" duration-ms="72" status="PASS">
+        <test-method signature="verifyHomePageLoadsSuccessfully()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:47:07 BST" name="verifyHomePageLoadsSuccessfully" finished-at="2025-06-23T13:47:07 BST" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageLoadsSuccessfully -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.tests.HomePageTest@416c58f5]" started-at="2025-06-20T14:52:04 BST" name="tearDown" finished-at="2025-06-20T14:52:06 BST" duration-ms="2115" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:47:07 BST" name="tearDown" finished-at="2025-06-23T13:47:11 BST" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageLoadsSuccessfully status=SUCCESS method=HomePageTest.verifyHomePageLoadsSuccessfully()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushExtentReports()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:47:11 BST" name="flushExtentReports" finished-at="2025-06-23T13:47:11 BST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExtentReports -->
       </class> <!-- com.selenium.tests.HomePageTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

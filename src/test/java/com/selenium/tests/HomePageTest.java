@@ -9,7 +9,6 @@ import com.selenium.pages.HomePage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 public class HomePageTest extends Base {
 
     private static final Logger log = LogManager.getLogger(HomePageTest.class);
