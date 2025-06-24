@@ -12,7 +12,7 @@ public class LoginApiTest {
 
         RestAssured.baseURI = "https://demoqa.com";
 
-        String requestBody = "{ \"userName\": \"your-username\", \"password\": \"your-password\" }";
+        String requestBody = "{ \"userName\": \"maryamfarooq\", \"password\": \"Maryam123!\" }";
 
         Response response = RestAssured
             .given()
