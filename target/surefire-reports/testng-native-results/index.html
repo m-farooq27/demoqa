@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,6 +109,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="com.selenium.tests.HomePageTest" class="method navigator-link" hash-for-method="verifyHomePageLoadsSuccessfully">verifyHomePageLoadsSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.selenium.tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyValidLogin">verifyValidLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -145,6 +150,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidLogin">
+                  </a> <!-- verifyValidLogin -->
+                  <span class="method-name">verifyValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -157,6 +177,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.selenium.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.selenium.tests.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -170,7 +191,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (1 class)</span>
+                <span class="test-name">Surefire test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,20 +217,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyElementsCardIsVisibleAndClickable')
-data.setCell(0, 2, 'com.selenium.tests.HomePageTest')
-data.setCell(0, 3, 142);
+data.setCell(0, 1, 'verifyValidLogin')
+data.setCell(0, 2, 'com.selenium.tests.LoginPageTest')
+data.setCell(0, 3, 1567);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyHomePageLoadsSuccessfully')
+data.setCell(1, 1, 'verifyElementsCardIsVisibleAndClickable')
 data.setCell(1, 2, 'com.selenium.tests.HomePageTest')
-data.setCell(1, 3, 63);
+data.setCell(1, 3, 237);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyHomePageLoadsSuccessfully')
+data.setCell(2, 2, 'com.selenium.tests.HomePageTest')
+data.setCell(2, 3, 93);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 205 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -224,9 +249,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium.tests.LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupExtentReports</span>
+                <br/>
+                <span class="ignored-method-name">flushExtentReports</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Surefire_suite" class="panel">
@@ -242,31 +276,49 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.selenium.tests.HomePageTest.verifyElementsCardIsVisibleAndClickable())</span>
-                <span class="method-start">277 ms</span>
+                <span class="method-start">447 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyElementsCardIsVisibleAndClickable</span>
-                <span class="method-start">5961 ms</span>
+                <span class="method-start">6575 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyElementsCardIsVisibleAndClickable status=SUCCESS method=HomePageTest.verifyEl...)</span>
-                <span class="method-start">6108 ms</span>
+                <span class="method-start">6818 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.selenium.tests.HomePageTest.verifyHomePageLoadsSuccessfully())</span>
-                <span class="method-start">11505 ms</span>
+                <span class="method-start">11486 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageLoadsSuccessfully</span>
-                <span class="method-start">21799 ms</span>
+                <span class="method-start">17118 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyHomePageLoadsSuccessfully status=SUCCESS method=HomePageTest.verifyHomePageLo...)</span>
-                <span class="method-start">21862 ms</span>
+                <span class="method-start">17213 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.selenium.tests.LoginPageTest.verifyValidLogin())</span>
+                <span class="method-start">21688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidLogin</span>
+                <span class="method-start">34060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=verifyValidLogin status=SUCCESS method=LoginPageTest.verifyValidLogin()[pri:0, inst...)</span>
+                <span class="method-start">35628 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.tests.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">flushExtentReports</span>
-                <span class="method-start">25403 ms</span>
+                <span class="method-start">38862 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

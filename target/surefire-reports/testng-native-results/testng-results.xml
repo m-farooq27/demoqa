@@ -1,17 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-23T13:46:45 BST" name="Surefire suite" finished-at="2025-06-23T13:47:11 BST" duration-ms="25127">
+  <suite started-at="2025-06-24T09:24:36 BST" name="Surefire suite" finished-at="2025-06-24T09:25:15 BST" duration-ms="38446">
     <groups>
     </groups>
-    <test started-at="2025-06-23T13:46:45 BST" name="Surefire test" finished-at="2025-06-23T13:47:11 BST" duration-ms="25127">
+    <test started-at="2025-06-24T09:24:36 BST" name="Surefire test" finished-at="2025-06-24T09:25:15 BST" duration-ms="38446">
+      <class name="com.selenium.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.LoginPageTest@38aa816f]" started-at="2025-06-24T09:24:57 BST" name="setUp" finished-at="2025-06-24T09:25:10 BST" duration-ms="12372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.selenium.tests.LoginPageTest.verifyValidLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidLogin()[pri:0, instance:com.selenium.tests.LoginPageTest@38aa816f]" started-at="2025-06-24T09:25:10 BST" name="verifyValidLogin" finished-at="2025-06-24T09:25:11 BST" duration-ms="1567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.LoginPageTest@38aa816f]" started-at="2025-06-24T09:25:11 BST" name="tearDown" finished-at="2025-06-24T09:25:15 BST" duration-ms="3213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=LoginPageTest.verifyValidLogin()[pri:0, instance:com.selenium.tests.LoginPageTest@38aa816f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.tests.LoginPageTest -->
       <class name="com.selenium.tests.HomePageTest">
-        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:46:45 BST" name="setupExtentReports" finished-at="2025-06-23T13:46:45 BST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:com.selenium.tests.HomePageTest@7a1234bf]" started-at="2025-06-24T09:24:36 BST" name="setupExtentReports" finished-at="2025-06-24T09:24:36 BST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtentReports -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:46:45 BST" name="setUp" finished-at="2025-06-23T13:46:51 BST" duration-ms="5682" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.HomePageTest@7a1234bf]" started-at="2025-06-24T09:24:36 BST" name="setUp" finished-at="2025-06-24T09:24:42 BST" duration-ms="6127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,22 +50,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyElementsCardIsVisibleAndClickable()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:46:51 BST" name="verifyElementsCardIsVisibleAndClickable" finished-at="2025-06-23T13:46:51 BST" duration-ms="142" status="PASS">
+        <test-method signature="verifyElementsCardIsVisibleAndClickable()[pri:0, instance:com.selenium.tests.HomePageTest@7a1234bf]" started-at="2025-06-24T09:24:42 BST" name="verifyElementsCardIsVisibleAndClickable" finished-at="2025-06-24T09:24:43 BST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyElementsCardIsVisibleAndClickable -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:46:51 BST" name="tearDown" finished-at="2025-06-23T13:46:57 BST" duration-ms="5396" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.HomePageTest@7a1234bf]" started-at="2025-06-24T09:24:43 BST" name="tearDown" finished-at="2025-06-24T09:24:47 BST" duration-ms="4666" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyElementsCardIsVisibleAndClickable status=SUCCESS method=HomePageTest.verifyElementsCardIsVisibleAndClickable()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e] output={null}]]]>
+                <![CDATA[[TestResult name=verifyElementsCardIsVisibleAndClickable status=SUCCESS method=HomePageTest.verifyElementsCardIsVisibleAndClickable()[pri:0, instance:com.selenium.tests.HomePageTest@7a1234bf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:46:57 BST" name="setUp" finished-at="2025-06-23T13:47:07 BST" duration-ms="10294" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.HomePageTest@7a1234bf]" started-at="2025-06-24T09:24:47 BST" name="setUp" finished-at="2025-06-24T09:24:53 BST" duration-ms="5632" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,22 +76,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageLoadsSuccessfully()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:47:07 BST" name="verifyHomePageLoadsSuccessfully" finished-at="2025-06-23T13:47:07 BST" duration-ms="63" status="PASS">
+        <test-method signature="verifyHomePageLoadsSuccessfully()[pri:0, instance:com.selenium.tests.HomePageTest@7a1234bf]" started-at="2025-06-24T09:24:53 BST" name="verifyHomePageLoadsSuccessfully" finished-at="2025-06-24T09:24:53 BST" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageLoadsSuccessfully -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:47:07 BST" name="tearDown" finished-at="2025-06-23T13:47:11 BST" duration-ms="3512" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.HomePageTest@7a1234bf]" started-at="2025-06-24T09:24:53 BST" name="tearDown" finished-at="2025-06-24T09:24:57 BST" duration-ms="4472" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyHomePageLoadsSuccessfully status=SUCCESS method=HomePageTest.verifyHomePageLoadsSuccessfully()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e] output={null}]]]>
+                <![CDATA[[TestResult name=verifyHomePageLoadsSuccessfully status=SUCCESS method=HomePageTest.verifyHomePageLoadsSuccessfully()[pri:0, instance:com.selenium.tests.HomePageTest@7a1234bf] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flushExtentReports()[pri:0, instance:com.selenium.tests.HomePageTest@545b995e]" started-at="2025-06-23T13:47:11 BST" name="flushExtentReports" finished-at="2025-06-23T13:47:11 BST" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="flushExtentReports()[pri:0, instance:com.selenium.tests.HomePageTest@7a1234bf]" started-at="2025-06-24T09:25:15 BST" name="flushExtentReports" finished-at="2025-06-24T09:25:15 BST" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushExtentReports -->
