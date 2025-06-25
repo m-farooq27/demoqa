@@ -1,5 +1,6 @@
 com\selenium\utils\PropertiesHandler.class
 stepdefinitions\LoginSteps.class
+com\selenium\utils\ExtentManager.class
 api\GenerateTokenApiTest.class
 api\LoginApiTest.class
 com\selenium\base\Base.class
