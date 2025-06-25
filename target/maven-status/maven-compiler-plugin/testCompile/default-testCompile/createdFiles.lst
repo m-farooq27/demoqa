@@ -8,4 +8,5 @@ com\selenium\pages\HomePage.class
 com\selenium\tests\LoginPageTest.class
 com\selenium\tests\HomePageTest.class
 com\selenium\AppTest.class
+api\ApiUtils.class
 runner\TestRunner.class
