@@ -1,38 +1,29 @@
 package com.selenium.utils;
 
-import java.io.InputStream; //read config.properties as stream from filepath
-import java.util.Properties; //built-in java class to handle .properties
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.util.Properties;
 
 public class PropertiesHandler {
 
-    private static Properties properties = new Properties();
-	
-	//Loads config.properties 
+	private static Properties prop = new Properties();
+
 	static {
 		try {
-			InputStream input = PropertiesHandler.class
-					.getClassLoader()
-					.getResourceAsStream("config.properties"); //converts to input stream to be read
-			
-			if (input==null) { //if file not found
-				throw new RuntimeException("config.properties file not found in classpath");
-			}
-			
-			properties.load(input);	//loads key values + ensures tests not carried out if config not loaded
+			InputStream input = new FileInputStream("src/test/resources/config.properties");
+			prop.load(input);
 		} catch (Exception e) {
-			throw new RuntimeException("Failed to load config.properties: ", e);
+			e.printStackTrace();
 		}
 	}
-	
-	//Get the value via keys
+
 	public static String get(String key) {
-		return properties.getProperty(key);
+		return prop.getProperty(key);
 	}
-	
-	//Prevents crashes from missing properties
+
 	public static int getInt(String key, int defaultValue) {
 		try {
-			return Integer.parseInt(properties.getProperty(key));
+			return Integer.parseInt(prop.getProperty(key));
 		} catch (Exception e) {
 			return defaultValue;
 		}

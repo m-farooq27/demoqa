@@ -6,14 +6,14 @@ import com.aventstack.extentreports.Status;
 import com.selenium.utils.ExtentManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import com.selenium.utils.PropertiesHandler;
 
 public class ApiUtils {
 
-    private static final String BASE_URL = "https://demoqa.com";
     private static final Logger log = LogManager.getLogger(ApiUtils.class);
 
     static {
-        RestAssured.baseURI = BASE_URL;
+        RestAssured.baseURI = PropertiesHandler.get("baseURI");
     }
 
     public static String generateToken(String username, String password) {

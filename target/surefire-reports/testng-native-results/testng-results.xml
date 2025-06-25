@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-25T10:52:44 BST" name="Surefire suite" finished-at="2025-06-25T10:53:16 BST" duration-ms="32203">
+  <suite started-at="2025-06-25T13:35:23 BST" name="Surefire suite" finished-at="2025-06-25T13:35:55 BST" duration-ms="32245">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@16fdec90]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-25T10:52:44 BST" name="Surefire test" finished-at="2025-06-25T10:53:16 BST" duration-ms="32203">
+    <test started-at="2025-06-25T13:35:23 BST" name="Surefire test" finished-at="2025-06-25T13:35:55 BST" duration-ms="32245">
       <class name="com.selenium.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.LoginPageTest@74f5ce22]" started-at="2025-06-25T10:53:07 BST" name="setUp" finished-at="2025-06-25T10:53:12 BST" duration-ms="4490" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.LoginPageTest@74f5ce22]" started-at="2025-06-25T13:35:44 BST" name="setUp" finished-at="2025-06-25T13:35:49 BST" duration-ms="4695" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,11 +21,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyValidLogin()[pri:0, instance:com.selenium.tests.LoginPageTest@74f5ce22]" started-at="2025-06-25T10:53:12 BST" name="verifyValidLogin" finished-at="2025-06-25T10:53:13 BST" duration-ms="1747" status="PASS">
+        <test-method signature="verifyValidLogin()[pri:0, instance:com.selenium.tests.LoginPageTest@74f5ce22]" started-at="2025-06-25T13:35:49 BST" name="verifyValidLogin" finished-at="2025-06-25T13:35:51 BST" duration-ms="1681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.LoginPageTest@74f5ce22]" started-at="2025-06-25T10:53:13 BST" name="tearDown" finished-at="2025-06-25T10:53:16 BST" duration-ms="2505" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.LoginPageTest@74f5ce22]" started-at="2025-06-25T13:35:51 BST" name="tearDown" finished-at="2025-06-25T13:35:54 BST" duration-ms="3157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,21 +38,21 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.selenium.tests.LoginPageTest -->
       <class name="api.LoginApiTest">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:api.LoginApiTest@79079097]" started-at="2025-06-25T10:52:49 BST" name="setUpReport" finished-at="2025-06-25T10:52:49 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:api.LoginApiTest@79079097]" started-at="2025-06-25T13:35:28 BST" name="setUpReport" finished-at="2025-06-25T13:35:28 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method signature="verifyLoginApi()[pri:0, instance:api.LoginApiTest@79079097]" started-at="2025-06-25T10:52:49 BST" name="verifyLoginApi" finished-at="2025-06-25T10:52:50 BST" duration-ms="290" status="PASS">
+        <test-method signature="verifyLoginApi()[pri:0, instance:api.LoginApiTest@79079097]" started-at="2025-06-25T13:35:28 BST" name="verifyLoginApi" finished-at="2025-06-25T13:35:28 BST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginApi -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:api.LoginApiTest@79079097]" started-at="2025-06-25T10:52:50 BST" name="tearDownReport" finished-at="2025-06-25T10:52:50 BST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:api.LoginApiTest@79079097]" started-at="2025-06-25T13:35:28 BST" name="tearDownReport" finished-at="2025-06-25T13:35:28 BST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
       </class> <!-- api.LoginApiTest -->
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@16fdec90]" started-at="2025-06-25T10:53:16 BST" name="setUpClass" finished-at="2025-06-25T10:53:16 BST" duration-ms="494" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@16fdec90]" started-at="2025-06-25T13:35:54 BST" name="setUpClass" finished-at="2025-06-25T13:35:55 BST" duration-ms="777" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@16fdec90]" started-at="2025-06-25T10:53:16 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-25T10:53:16 BST" duration-ms="92" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@16fdec90]" started-at="2025-06-25T13:35:55 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-25T13:35:55 BST" duration-ms="124" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,17 +79,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@16fdec90]" started-at="2025-06-25T10:53:16 BST" name="tearDownClass" finished-at="2025-06-25T10:53:16 BST" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@16fdec90]" started-at="2025-06-25T13:35:55 BST" name="tearDownClass" finished-at="2025-06-25T13:35:55 BST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runner.TestRunner -->
       <class name="com.selenium.tests.HomePageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T10:52:44 BST" name="beforeSuite" finished-at="2025-06-25T10:52:44 BST" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T13:35:22 BST" name="beforeSuite" finished-at="2025-06-25T13:35:23 BST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T10:52:50 BST" name="setUp" finished-at="2025-06-25T10:52:56 BST" duration-ms="6669" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T13:35:28 BST" name="setUp" finished-at="2025-06-25T13:35:34 BST" duration-ms="5541" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,11 +100,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyElementsCardIsVisibleAndClickable()[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T10:52:56 BST" name="verifyElementsCardIsVisibleAndClickable" finished-at="2025-06-25T10:52:57 BST" duration-ms="280" status="PASS">
+        <test-method signature="verifyElementsCardIsVisibleAndClickable()[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T13:35:34 BST" name="verifyElementsCardIsVisibleAndClickable" finished-at="2025-06-25T13:35:34 BST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyElementsCardIsVisibleAndClickable -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T10:52:57 BST" name="tearDown" finished-at="2025-06-25T10:53:00 BST" duration-ms="3021" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T13:35:34 BST" name="tearDown" finished-at="2025-06-25T13:35:37 BST" duration-ms="2858" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T10:53:00 BST" name="setUp" finished-at="2025-06-25T10:53:04 BST" duration-ms="4670" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T13:35:37 BST" name="setUp" finished-at="2025-06-25T13:35:42 BST" duration-ms="4570" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,11 +126,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageLoadsSuccessfully()[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T10:53:04 BST" name="verifyHomePageLoadsSuccessfully" finished-at="2025-06-25T10:53:04 BST" duration-ms="79" status="PASS">
+        <test-method signature="verifyHomePageLoadsSuccessfully()[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T13:35:42 BST" name="verifyHomePageLoadsSuccessfully" finished-at="2025-06-25T13:35:42 BST" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageLoadsSuccessfully -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T10:53:04 BST" name="tearDown" finished-at="2025-06-25T10:53:07 BST" duration-ms="2666" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T13:35:42 BST" name="tearDown" finished-at="2025-06-25T13:35:44 BST" duration-ms="2726" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,21 +141,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T10:53:16 BST" name="afterSuite" finished-at="2025-06-25T10:53:16 BST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.selenium.tests.HomePageTest@6f3c660a]" started-at="2025-06-25T13:35:55 BST" name="afterSuite" finished-at="2025-06-25T13:35:55 BST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.selenium.tests.HomePageTest -->
       <class name="api.GenerateTokenApiTest">
-        <test-method is-config="true" signature="setUpReport()[pri:0, instance:api.GenerateTokenApiTest@489115ef]" started-at="2025-06-25T10:52:44 BST" name="setUpReport" finished-at="2025-06-25T10:52:44 BST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:api.GenerateTokenApiTest@489115ef]" started-at="2025-06-25T13:35:23 BST" name="setUpReport" finished-at="2025-06-25T13:35:23 BST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpReport -->
-        <test-method signature="generateTokenTest()[pri:0, instance:api.GenerateTokenApiTest@489115ef]" started-at="2025-06-25T10:52:44 BST" name="generateTokenTest" finished-at="2025-06-25T10:52:49 BST" duration-ms="4487" status="PASS">
+        <test-method signature="generateTokenTest()[pri:0, instance:api.GenerateTokenApiTest@489115ef]" started-at="2025-06-25T13:35:23 BST" name="generateTokenTest" finished-at="2025-06-25T13:35:28 BST" duration-ms="5052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTokenTest -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:api.GenerateTokenApiTest@489115ef]" started-at="2025-06-25T10:52:49 BST" name="tearDownReport" finished-at="2025-06-25T10:52:49 BST" duration-ms="479" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:api.GenerateTokenApiTest@489115ef]" started-at="2025-06-25T13:35:28 BST" name="tearDownReport" finished-at="2025-06-25T13:35:28 BST" duration-ms="466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
