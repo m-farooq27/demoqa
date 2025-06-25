@@ -24,3 +24,29 @@
 2025-06-25 14:22:15 [main] INFO  Base - Launching browser
 2025-06-25 14:22:21 [main] INFO  Base - Navigated to: https://demoqa.com/login
 2025-06-25 14:22:25 [main] INFO  Base - Browser closed
+2025-06-25 14:26:17 [main] INFO  ApiUtils - Generating token for user: maryamfarooq
+2025-06-25 14:26:19 [main] INFO  ApiUtils - Response code: 200
+2025-06-25 14:26:20 [main] INFO  ApiUtils - Generated token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Im1hcnlhbWZhcm9vcSIsInBhc3N3b3JkIjoiTWFyeWFtMTIzISIsImlhdCI6MTc1MDg1Nzk3OH0.LiPxrwrazrS4yy5zzSm89npAACFjOOd5TW3cXOnfMtE
+2025-06-25 14:26:20 [main] INFO  ApiUtils - Performing login API for user: maryamfarooq
+2025-06-25 14:26:21 [main] INFO  ApiUtils - Login Response Code: 200
+2025-06-25 14:26:21 [main] INFO  Base - Launching browser
+2025-06-25 14:26:25 [main] INFO  Base - Navigated to: https://demoqa.com/login
+2025-06-25 14:26:25 [main] INFO  HomePageTest - Starting test for visibility and clickability of 'Elements' card.
+2025-06-25 14:26:25 [main] INFO  HomePage - HomePage initialized with PageFactory
+2025-06-25 14:26:25 [main] INFO  HomePage - Checking card visibility: elements
+2025-06-25 14:26:26 [main] INFO  HomePageTest - 'Elements' card is visible.
+2025-06-25 14:26:26 [main] INFO  HomePage - Clicking card: elements
+2025-06-25 14:26:26 [main] INFO  HomePageTest - Clicked on 'Elements' card.
+2025-06-25 14:26:28 [main] INFO  Base - Browser closed
+2025-06-25 14:26:28 [main] INFO  Base - Launching browser
+2025-06-25 14:26:33 [main] INFO  Base - Navigated to: https://demoqa.com/login
+2025-06-25 14:26:33 [main] INFO  HomePageTest - Starting Home Page load verification test.
+2025-06-25 14:26:33 [main] INFO  HomePage - HomePage initialized with PageFactory
+2025-06-25 14:26:33 [main] INFO  HomePage - Logo visible: true
+2025-06-25 14:26:33 [main] INFO  HomePage - Footer visible: true
+2025-06-25 14:26:33 [main] INFO  HomePage - Home page loaded status: true
+2025-06-25 14:26:33 [main] INFO  HomePageTest - Home page loaded successfully.
+2025-06-25 14:26:35 [main] INFO  Base - Browser closed
+2025-06-25 14:26:35 [main] INFO  Base - Launching browser
+2025-06-25 14:26:41 [main] INFO  Base - Navigated to: https://demoqa.com/login
+2025-06-25 14:26:45 [main] INFO  Base - Browser closed
